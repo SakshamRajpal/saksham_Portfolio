@@ -27,6 +27,7 @@ import nsut from "./company/nsut.png";
 import csi from "./company/csi.png";
 import mait from "./company/mait.png";
 
+import portfolio from "./portfolio.png";
 import yourcare from "./yourcare.png";
 import hindigyanghar from "./hindigyanghar.png";
 import quickbite from "./quickbite.png";
@@ -61,6 +62,7 @@ export {
   nsut,
   csi,
   mait,
+  portfolio,
   yourcare,
   hindigyanghar,
   quickbite,
