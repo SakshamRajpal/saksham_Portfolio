@@ -19,6 +19,7 @@ import {
   nsut,
   csi,
   mait,
+  portfolio,
   yourcare,
   hindigyanghar,
   quickbite,
@@ -175,6 +176,32 @@ const experiences = [
 
 const projects = [
   {
+    name: "My Portfolio Website",
+    description:
+      "Developed a 3-D portfolio website where i can showcase my skills, experiences, projects and also provide a way for people to contact me.",
+    tags: [
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "blender",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/SakshamRajpal/saksham_Portfolio",
+    live_demo_link: "https://saksham-portfolio-sooty.vercel.app/",
+  },
+  {
     name: "YourCare",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -219,27 +246,6 @@ const projects = [
     live_demo_link: "https://hindigyanghar.netlify.app/",
   },
   {
-    name: "QuickBite",
-    description:
-      "Developed a full-stack Food-ordering website with React.js as the frontend and designed ExpressJS based ordering system for smooth cart management, item addition/removal, and quantity updates. ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: quickbite,
-    source_code_link: "https://github.com/SakshamRajpal/FoodOrder-Project",
-  },
-  {
     name: "Unichat",
     description:
       "Designed Unichat, an advanced real-time messaging application using React.js, Firebase, and Stream Chat services by integrated Stream Chat API for real-time messaging, including user channels, media sharing and message synchronization.  ",
@@ -260,6 +266,27 @@ const projects = [
     image: unichat,
     source_code_link: "https://github.com/SakshamRajpal/Unichat",
     live_demo_link: "https://unichatbysaksham.netlify.app/",
+  },
+  {
+    name: "QuickBite",
+    description:
+      "Developed a full-stack Food-ordering website with React.js as the frontend and designed ExpressJS based ordering system for smooth cart management, item addition/removal, and quantity updates. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quickbite,
+    source_code_link: "https://github.com/SakshamRajpal/FoodOrder-Project",
   }
 ];
 
