@@ -66,8 +66,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git 
-cd 
+git https://github.com/SakshamRajpal/saksham_Portfolio.git
+cd SakshamRajpal
 ```
 
 **Installation**
