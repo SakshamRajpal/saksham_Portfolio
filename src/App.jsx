@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-
+import { useEffect } from "react";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
 
 const App = () => {
