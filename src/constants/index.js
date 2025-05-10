@@ -204,7 +204,7 @@ const projects = [
   {
     name: "YourCare",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "YourCare is a healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors. It features administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications — all built using Next.js.",
     tags: [
       {
         name: "react",
